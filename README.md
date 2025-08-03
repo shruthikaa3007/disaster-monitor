@@ -84,7 +84,7 @@ To deploy the full pipeline (news → location → imagery → inference → das
 
 ```bash
 bash deployment.sh
-
+```
 
 ---
 
