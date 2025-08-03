@@ -39,7 +39,7 @@ Disaster Alert Fusion Plus is an AI-powered disaster monitoring system that inte
 
 ```
 DisasterAlertFusionPlus/
-│
+|__ deployment.sh             # full setup
 ├── rss_bert.py               # Location and disaster classification
 ├── weather_alerts.py         # Weather API integration
 ├── earth_engine_fetch.py     # Satellite image fetching (GEE)
@@ -50,6 +50,7 @@ DisasterAlertFusionPlus/
 ├── data/                     # Output logs and sample images
 ├── utils/                    # Helper functions (translation, scoring, etc.)
 └── README.md
+
 ```
 
 ---
@@ -74,10 +75,16 @@ pip install -r requirements.txt
   - OpenWeatherMap or IMD
   - Firebase (optional)
 
-4. **Run the Streamlit App**
+
+---
+
+## ⚙️ Deployment
+
+To deploy the full pipeline (news → location → imagery → inference → dashboard), just run:
+
 ```bash
-streamlit run dashboard_app.py
-```
+bash deployment.sh
+
 
 ---
 
