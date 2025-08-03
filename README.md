@@ -111,15 +111,7 @@ streamlit run dashboard_app.py
 - Email/SMS-based emergency alert system
 - Historical disaster trend visualization
 
----
 
-## 👤 Author
-
-**Shruthikaa Sathish Kumar**  
-Developer | AI Researcher | Final Year CS Student  
-📧 [Add your email or LinkedIn link here]
-
----
 
 ## 📄 License
 
